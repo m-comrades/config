@@ -1,2 +1,7 @@
 polar:
   greeting: 'Welcome to the catalog from fresh the config server'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
